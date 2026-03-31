@@ -23,7 +23,7 @@ Location represents the relevant areas that house producers, record labels, and 
 ﻿Songs generate streaming data through the Stream Total table 
 ﻿Unit Total and Sales tables are how albums make money 
 A junction table links Producers to Songs  
-
+<img width="892" height="892" alt="image" src="https://github.com/user-attachments/assets/de6c0221-a936-4248-a618-99ad375cd79e" />
 ## Data Dictionary 
 ### Artist Table 
 | Column Name | Data Type | Description | 
