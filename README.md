@@ -3,7 +3,7 @@
 
 ## Team Members
 * **Emmy Nguyen** - [View GitHub Profile](https://github.com/emmyn1)
-* **Catherine Lusick** - [View GitHub Profile][(https://github.com/username2)](https://github.com/cl95728))
+* **Catherine Lusick** - [View GitHub Profile](https://github.com/cl95728))
 * **Diyaa Patel** - [View GitHub Profile](https://github.com/Diyaa-P13/MIST4610---Project-1-Group-5.git) 
 * **Caleb Rivers** - [View GitHub Profile](https://github.com/username4)
   
