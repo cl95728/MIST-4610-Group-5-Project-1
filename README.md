@@ -2,8 +2,8 @@
 # Team Name: Group 5
 
 ## Team Members
-* **Emmy Nguyen** - [View GitHub Profile](https://github.com/emmyn1)
-* **Catherine Lusick** - [View GitHub Profile](https://github.com/cl95728))
+* **Emmy Nguyen** - [View GitHub Profile](https://github.com/emmyn1/MIST-4610-Group-5-1)
+* **Catherine Lusick** - [View GitHub Profile](https://github.com/cl95728/MIST-4610-Group-5-Project-1)
 * **Diyaa Patel** - [View GitHub Profile](https://github.com/Diyaa-P13/MIST4610---Project-1-Group-5.git) 
 * **Caleb Rivers** - [View GitHub Profile](https://github.com/username4)
   
