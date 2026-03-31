@@ -125,7 +125,7 @@ A junction table links Producers to Songs
 | salesID | INT | Unique identifier for each sales record |  
 | revenueAmount | DECIMAL | Total revenue generated from sales |  
  
-### Queries 
+## Queries 
 Show all of the albums for a specific artist 
 Query 1 retrieves album names and release dates for a specific artist by filtering the Album table using the artist’s ID. It provides a simple view of the artist’s discography. 
 <img width="534" height="544" alt="image" src="https://github.com/user-attachments/assets/8625a91a-9bb5-469e-ab75-1e7e162ab232" />
@@ -189,7 +189,7 @@ Display producers who have never worked on a song in the Hip Hop genre
  
 Query 10 is designed to find the names of producers in the Producer table who have never been associated with a "Hip Hop" song. To do this, I used a NOT EXISTS subquery to filter anyone linked to that specific genre. For every producer, the subquery checks the Song Producer table to see if they are linked to any song labeled 'Hip Hop'. If the subquery finds any match, NOT EXISTS becomes false, and that producer is excluded. This logic can be used to isolate producers who work exclusively in other genres like Country or Pop. It’s a great way to find a music producer whose specialty does not fall in Hip Hop. 
  
-### Database Information 
+## Database Information 
 Name of the database: al_Group_21482_G5 
                  
  
