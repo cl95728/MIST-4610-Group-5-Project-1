@@ -189,6 +189,21 @@ Query 9 was created to pull a list of all cities in the Location table that ends
  
 Query 10 is designed to find the names of producers in the Producer table who have never been associated with a "Hip Hop" song. To do this, I used a NOT EXISTS subquery to filter anyone linked to that specific genre. For every producer, the subquery checks the Song Producer table to see if they are linked to any song labeled 'Hip Hop'. If the subquery finds any match, NOT EXISTS becomes false, and that producer is excluded. This logic can be used to isolate producers who work exclusively in other genres like Country or Pop. It’s a great way to find a music producer whose specialty does not fall in Hip Hop. 
  
+
+| Feature                   | Query 1 | Query 2 | Query 3 | Query 4 | Query 5 | Query 6 | Query 7 | Query 8 | Query 9 | Query 10 |  
+|---------------------------|---------|---------|---------|---------|---------|---------|---------|---------|---------|----------| 
+| Multiple Table Join       |         |    X    |    X    |    X    |    X    |    X    |    X    |    X    |         |     X    | 
+| Subquery                  |         |         |         |         |         |         |         |    X    |         |          | 
+| GROUP BY                  |         |         |         |         |    X    |         |    X    |    X    |         |          | 
+| GROUP BY with HAVING      |         |         |         |    X    |         |         |         |         |         |          | 
+| Multi-condition WHERE     |         |         |    X    |         |         |         |         |         |         |          | 
+| Built - in Functions      |         |    X    |    X    |    X    |    X    |    X    |    X    |    X    |         |          | 
+| REGEXP                    |         |         |         |         |         |    X    |         |         |    X    |          |  
+| NOT EXISTS                |         |         |         |         |         |         |         |         |         |     X    | 
+| WHERE Clause              |    X    |         |         |    X    |         |    X    |         |         |         |          | 
+| Basic SELECT              |    X    |         |         |    X    |    X    |    X    |         |         |         |          | 
+| Union                     |         |         |         |         |         |    X    |         |         |         |          | 
+ 
 ## Database Information 
 Name of the database: al_Group_21482_G5 
                  
