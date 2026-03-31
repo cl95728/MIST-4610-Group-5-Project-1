@@ -126,14 +126,14 @@ A junction table links Producers to Songs
 | revenueAmount | DECIMAL | Total revenue generated from sales |  
  
 ## Queries 
-Show all of the albums for a specific artist 
+### Show all of the albums for a specific artist 
 Query 1 retrieves album names and release dates for a specific artist by filtering the Album table using the artist’s ID. It provides a simple view of the artist’s discography. 
 <img width="534" height="544" alt="image" src="https://github.com/user-attachments/assets/8625a91a-9bb5-469e-ab75-1e7e162ab232" />
     
 
 This query gives management quick access to an artist’s portfolio of work and track their release history. Understanding an artist’s output is important for planning future releases and activities. It also provides an idea of an artist’s content production and an overview of their career progression. 
 
-Which songs are the most popular based on streaming? 
+### Which songs are the most popular based on streaming? 
 Query 2  retrieves song titles and their total stream counts by joining the Song and Stream Total tables. It ranks songs in descending order and returns the top 10 most-streamed tracks. 
 <img width="730" height="528" alt="image" src="https://github.com/user-attachments/assets/a77e4728-cc72-4344-b779-75a69489b0d1" />
 
@@ -141,7 +141,7 @@ Query 2  retrieves song titles and their total stream counts by joining the Song
 
 This query allows management to have a better understanding of which songs are currently the most popular among listeners. High streaming numbers indicate strong audience engagement and can guide the company’s promotion decisions. The results can also be utilized to maximize revenues from streaming platforms. 
 
-Which albums have sold above 9,000,000 albums? 
+### Which albums have sold above 9,000,000 albums? 
 Query 3 retrieves album names and total units sold by joining Album and Unit Total tables. It filters for albums exceeding 9,000,000 units and orders them from highest to lowest sales. 
 <img width="746" height="566" alt="image" src="https://github.com/user-attachments/assets/96b7d072-a627-44f3-99c6-25ceca0d04c9" />
 
@@ -150,26 +150,26 @@ Query 3 retrieves album names and total units sold by joining Album and Unit Tot
 This query helps management identify which albums are performing well in terms of sales volume. By focusing on high-selling albums, the label can prioritize its resources for the successful projects. This insight can guide future investment strategies and production decisions. 
 
 
-Which hip hop feature group has the most streams per collaboration? 
+### Which hip hop feature group has the most streams per collaboration? 
 <img width="902" height="440" alt="image" src="https://github.com/user-attachments/assets/de7794d5-bf98-40fc-b244-1065ebf360bf" />
 
 
 Where should we look for new talent? (Which location generates the most revenue) 
 <img width="812" height="534" alt="image" src="https://github.com/user-attachments/assets/dfc98cc2-75ec-4209-a159-d20a8e30daf0" />
 
-Do pre or post 2000s albums generate the most sales? 
+### Do pre or post 2000s albums generate the most sales? 
 <img width="744" height="496" alt="image" src="https://github.com/user-attachments/assets/29663913-b82b-4450-ba9b-89df3a08aa3b" />
 
  
 
 
-Which record label has released the most albums? 
+### Which record label has released the most albums? 
 <img width="552" height="544" alt="image" src="https://github.com/user-attachments/assets/06121961-0bb9-41db-ae11-8001bc16236b" />
  
 
 This query calculates the total number of albums released by each record label by joining the Album, Artist, and Record Label tables. It organizes the data by record label and counts the number of albums linked to each label, and then it arranges the results in descending order. This query assists management in determining which record labels are generating the most albums. Being able to identify which label is effectively, provides insight into overall label performance and market presence. This data can help make decisions about investments, resource distribution, and collaborations with successful labels.  
 
-Which artists have more total album sales than the average total sales of all artists 
+### Which artists have more total album sales than the average total sales of all artists 
 <img width="828" height="384" alt="image" src="https://github.com/user-attachments/assets/152db9d5-e9e0-4f79-bd1e-7410c5cb945d" />
 
 
@@ -177,13 +177,13 @@ This query calculates the total album sales for each artist by joining the Artis
 
  
 
-Which locations have a city name that ends with “ville” 
+### Which locations have a city name that ends with “ville” 
  <img width="572" height="374" alt="image" src="https://github.com/user-attachments/assets/3c992ce1-c44a-4dfd-9bf6-e13a5f822df2" />
 
 
 Query 9 was created to pull a list of all cities in the Location table that ends with the letters "ville". To make the list clean and easy to read, I used a Regular Expression to find the pattern and grouped the results by city. This query helps filter through the location data more effectively. Instead of scrolling through rows of data, this helps identify specific areas based on their name. 
 
-Display producers who have never worked on a song in the Hip Hop genre 
+### Display producers who have never worked on a song in the Hip Hop genre 
 <img width="500" height="352" alt="image" src="https://github.com/user-attachments/assets/d80ea62b-5861-4c67-b14f-d2e84b7106ed" />
 
  
