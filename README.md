@@ -151,7 +151,7 @@ This query helps management identify which albums are performing well in terms o
 
 
 ### 4. Which hip hop feature group has the most streams per collaboration? 
-<img width="902" height="440" alt="image" src="https://github.com/user-attachments/assets/de7794d5-bf98-40fc-b244-1065ebf360bf" />
+<img width="1258" height="612" alt="image" src="https://github.com/user-attachments/assets/78f581cc-e280-440d-a1d7-6a7a82fb9d22" />
 
 
 ### 5. Where should we look for new talent? (Which location generates the most revenue) 
